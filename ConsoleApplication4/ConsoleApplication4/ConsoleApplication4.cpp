@@ -20,7 +20,7 @@ int main()
 		printf("\nnum2 oops");
 	}
 	else
-		printf("num 1 oops ");
+		printf("num fail ");
 
 }
 
