@@ -1,31 +1,15 @@
 ﻿// ConsoleApp2.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
-#include "pch.h"
+//#include "pch.h"
 #include <iostream>
 
 int main()
 {
-   //td::cout << "Hello World!\n"; 
-	int num1, num2;
+	
+	std::cout << "Hello World!\n"; 
+}
 
-	printf("Input num1: ");
-	scanf_s(" %d", &num1);
-
-  	printf("\nInput num2: ");
-	scanf_s(" %d", &num2);
-	if (num1 > num2) 
-	{
-		printf("num1 is bigger");
-		printf("\nnum2 oops");
-	}
-	else 
-		printf("num 1 oops ");
-		
-	
-	
-	
-}    
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
