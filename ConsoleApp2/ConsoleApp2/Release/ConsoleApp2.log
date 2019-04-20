@@ -1,0 +1,8 @@
+﻿  pch.cpp
+c:\users\semyon\source\repos\semlevin\cedu1\consoleapp2\consoleapp2\pch.cpp(11): error C3861: 'printf': identifier not found
+c:\users\semyon\source\repos\semlevin\cedu1\consoleapp2\consoleapp2\pch.cpp(12): error C3861: 'scanf_s': identifier not found
+c:\users\semyon\source\repos\semlevin\cedu1\consoleapp2\consoleapp2\pch.cpp(14): error C3861: 'printf': identifier not found
+c:\users\semyon\source\repos\semlevin\cedu1\consoleapp2\consoleapp2\pch.cpp(15): error C3861: 'scanf_s': identifier not found
+c:\users\semyon\source\repos\semlevin\cedu1\consoleapp2\consoleapp2\pch.cpp(18): error C3861: 'printf': identifier not found
+c:\users\semyon\source\repos\semlevin\cedu1\consoleapp2\consoleapp2\pch.cpp(19): error C3861: 'printf': identifier not found
+c:\users\semyon\source\repos\semlevin\cedu1\consoleapp2\consoleapp2\pch.cpp(22): error C3861: 'printf': identifier not found
