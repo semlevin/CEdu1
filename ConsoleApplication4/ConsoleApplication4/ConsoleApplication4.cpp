@@ -5,7 +5,23 @@
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+ //   std::cout << "Hello World!\n"; 
+
+	int num1, num2;
+
+	printf("Input num1: ");
+	scanf_s(" %d", &num1);
+
+	printf("\nInput num2: ");
+	scanf_s(" %d", &num2);
+	if (num1 > num2)
+	{
+		printf("num1 is bigger");
+		printf("\nnum2 oops");
+	}
+	else
+		printf("num 1 oops ");
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
