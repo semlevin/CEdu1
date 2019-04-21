@@ -9,19 +9,21 @@ int main()
 
 	int num1, num2;
 
-	// вводим число num1 
-	printf("Input num1: ");
-	scanf_s(" %d", &num1);
+	int num[4];
+
+	for (int i = 0; i < 4; i++) {
+		// вводим числа 
+		printf("Input num%d: ", i+1);
+		scanf_s(" %d", &num[i]);
+	}
 	
-	// вводим число num2
-	printf("\nInput num2: ");
-	scanf_s(" %d", &num2);
+	
 
 	// сравниваем два числа
-	if (num1 > num2)
-		printf("num1 is bigger %d", num1);
+	if (num[0] > num[1])
+		printf("num1 is bigger %d", num[0]);
 	else
-		printf("num2 is bigger or equal %d ", num2);
+		printf("num2 is bigger or equal %d ", num[1]);
 
 }
 
