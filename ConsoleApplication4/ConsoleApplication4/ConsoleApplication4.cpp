@@ -3,29 +3,49 @@
 
 #include <iostream>
 
+		
+
+		
+
+
+		
+		
+		
+	
 int main()
 {
- //   std::cout << "Hello World!\n"; 
+	//   std::cout << "Hello World!\n"; 
 
-	int num1, num2;
 
-	int num[4];
 
-	for (int i = 0; i < 4; i++) {
-		// вводим числа 
-		printf("Input num%d: ", i+1);
+	int num[3];
+
+	for (int i = 0; i < 3; i++) {
+
+		printf("Input num%d: ", i + 1);
 		scanf_s(" %d", &num[i]);
 	}
-	
-	
 
-	// сравниваем два числа
-	if (num[0] > num[1])
-		printf("num1 is bigger %d", num[0]);
-	else
-		printf("num2 is bigger or equal %d ", num[1]);
+	int res;
+	res = num[0];
+	for (int i = 0; i < 3; i++) 
+	if (res < num[i]);
+		res = num[1];
+    else
+		printf("num[1] is biggest %d", res);
 
-}
+
+
+
+
+
+
+
+
+		}
+
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
