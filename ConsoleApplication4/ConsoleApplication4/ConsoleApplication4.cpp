@@ -13,7 +13,7 @@
 #define COUNT 5
 		
 	
-void name1 (int arg1)
+void name1(int arg1)
 {
 	switch (arg1) {
 	case BINGO:
@@ -28,8 +28,10 @@ void name1 (int arg1)
 		printf("\nso so\n");
 		break;
 	}
+	}
 	//   std::cout << "Hello World!\n"; 
 	int main()
+	{
 
 
 		int num[COUNT];
