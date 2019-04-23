@@ -28,21 +28,14 @@ int main()
 
 	int res;
 	res = num[0];
-	for (int i = 0; i < 3; i++) 
-	if (res < num[i]);
-		res = num[1];
-    else
-		printf("num[1] is biggest %d", res);
+	for (int i = 0; i < 3; i++)
 
+		if (res < num[i])
+		res = num[i];
+	printf("max %d", res);
+    
 
-
-
-
-
-
-
-
-		}
+}
 
 
 
