@@ -9,7 +9,7 @@
 
 
 		
-		
+#define COUNT 5
 		
 	
 int main()
@@ -18,17 +18,17 @@ int main()
 
 
 
-	int num[3];
+	int num[COUNT];
 
-	for (int i = 0; i < 3; i++) {
+	for (int i = 0; i < COUNT; i++) {
 
 		printf("Input num%d: ", i + 1);
 		scanf_s(" %d", &num[i]);
 	}
 
 	int res;
-	res = num[0];
-	for (int i = 0; i < 3; i++)
+		res = num[0];
+	for (int i = 0; i < COUNT; i++)
 
 		if (res < num[i])
 		res = num[i];
