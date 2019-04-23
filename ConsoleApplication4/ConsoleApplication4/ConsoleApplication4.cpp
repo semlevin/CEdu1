@@ -9,18 +9,30 @@
 
 #define BINGO 5
 #define TOOBAD 2
-#define SOSO 3
-		
+#define SOSO 3		
 #define COUNT 5
 		
 	
-int main()
+void name1 (int arg1)
 {
+	switch (arg1) {
+	case BINGO:
+		printf("\nBingo!\n");
+		break;
+
+	case TOOBAD:
+		printf("\nToo bad\n");
+		break;
+
+	case SOSO:
+		printf("\nso so\n");
+		break;
+	}
 	//   std::cout << "Hello World!\n"; 
+	int main()
 
 
-
-	int num[COUNT];
+		int num[COUNT];
 
 	for (int i = 0; i < COUNT; i++) {
 
@@ -35,24 +47,12 @@ int main()
 		if (res < num[i])
 		res = num[i];
 	printf("max %d", res);
+	name1 (arg1);
 
-
-	switch (res) {
-	case BINGO:
-		printf("\nBingo!\n");
-		break;
-
-	case TOOBAD:
-		printf("\nToo bad\n");
-		break;
-
-	case SOSO:
-		printf("\nso so\n");
-		break;
 	}
     
 
-}
+
 
 
 
