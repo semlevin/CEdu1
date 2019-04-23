@@ -7,7 +7,9 @@
 
 		
 
-
+#define BINGO 5
+#define TOOBAD 2
+#define SOSO 3
 		
 #define COUNT 5
 		
@@ -33,6 +35,21 @@ int main()
 		if (res < num[i])
 		res = num[i];
 	printf("max %d", res);
+
+
+	switch (res) {
+	case BINGO:
+		printf("\nBingo!\n");
+		break;
+
+	case TOOBAD:
+		printf("\nToo bad\n");
+		break;
+
+	case SOSO:
+		printf("\nso so\n");
+		break;
+	}
     
 
 }
